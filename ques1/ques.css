@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 90ch;
+  text-align: center;
+}
+.top {
+  background-color: orange;
+  height: 90px;
+}
+.section {
+  flex-grow: 1;
+  display: flex;
+}
+.left {
+  width: 15%;
+  background-color: blue;
+}
+.right {
+  flex-grow: 1;
+  background-color: green;
+}
+
+.bottom {
+  height: 70px;
+  background-color: darkred;
+}
